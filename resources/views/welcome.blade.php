@@ -37,7 +37,7 @@
                     </div>
 
                     <div class="col-md-12">
-                        <p>Web Designer, Web Developer, Front End Developer, Apps Developer, Graphic Designer</p>
+                        <p>Web Developer, Apps Developer, Front End Developer, Apps Developer, Administrator database, DevOp's</p>
                         <h2></h2>
                     </div>
                 </div>
@@ -55,24 +55,11 @@
 
                 <nav id="nav-menu-container">
                     <ul class="nav-menu">
-                        <li><a href="#top-header">Home</a></li>
-                        <li><a href="#about">About me</a></li>
+                        <li><a href="#top-header">Accueil</a></li>
+                        <li><a href="#about">À-propos</a></li>
                         <li><a href="#experience">Experience</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
-                        <li class="menu-has-children"><a href="#">Drop Down</a>
-                            <ul>
-                                <li><a href="#">Drop Down 1</a></li>
-                                <li><a href="#">Drop Down 2</a></li>
-                                <li class="menu-has-children"><a href="#">Drop Down 3</a>
-                                    <ul>
-                                        <li><a href="#">Drop Down 1</a></li>
-                                        <li><a href="#">Drop Down 2</a></li>
-                                        <li><a href="#">Drop Down 3</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
                         <li><a href="#contact">Contact me</a></li>
                     </ul>
                 </nav>
@@ -94,24 +81,24 @@
 
                     <div class="col-md-6 col-lg-8">
                         <header class="section-header">
-                            <h2>About Me</h2>
+                            <h2>À-propos</h2>
                         </header>
-                        <h3><strong>Name:</strong> Poppy Jackson</h3>
-                        <h4><strong>Profession:</strong> Web Designer & Developer</h4>
+                        <h3><strong>Nom :</strong> Anvoh Christy Yannick Banga</h3>
+                        <h4><strong>Profession:</strong> Ingénieur en Système d'information</h4>
                         <p>
-                            Aliquam volutpat libero vitae tellus tristique lacinia. Donec convallis eros quis purus fringilla feugiat. Morbi blandit sapien vestibulum. Donec maximus ligula a ultrices placerat.
+                            Passionné d’informatique, je suis fasciné par le pouvoir transformateur de la technologie et par son impact concret sur notre quotidien. Ingénieur en informatique, j’aime relever des défis techniques et explorer de nouvelles approches pour concevoir des solutions performantes, innovantes et durables.
                         </p>
                         <p>
-                            Mauris ac odio vel tortor facilisis scelerisque. Donec mattis interdum erat, at scelerisque augue mattis at. Integer nec scelerisque nisl. Duis urna justo, placerat bibendum mattis nec, venenatis ac nisl.
+                            Curieux et motivé, je me tiens constamment à l’affût des avancées technologiques. J’aime plonger dans de nouveaux outils, langages et environnements afin de repousser les limites de ce qui est possible et d’améliorer en continu mes compétences.
                         </p>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pellentesque neque auctor nisl ornare, id gravida mi elementum. Pellentesque convallis auctor efficitur. Pellentesque turpis turpis, placerat eu tempor id, fermentum eu magna.
+                           Pour moi, l’informatique n’est pas seulement un métier, mais une véritable passion qui me pousse à apprendre, à progresser et à créer de la valeur à travers chaque projet sur lequel je travaille.
                         </p>
-                        <a href="#">Hire Me</a>
+                        <a href="#">Télécharger CV</a>
                     </div>
                 </div>
 
-                <div class="row">
+                {{-- <div class="row">
                     <div class="col-md-6">
                         <div class="skills">
                             <h3>Front End Skills</h3>
@@ -162,7 +149,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
+                <br>
             </div>
         </div>
         <!-- About Me End-->
@@ -171,7 +159,7 @@
         <div class="experience" id="experience">
             <div class="container">
                 <header class="section-header">
-                    <h3>Job Experience</h3>
+                    <h3>Expérience professionnelle</h3>
                     <p>
                         Morbi lacinia malesuada risus vel pellentesque. Cras malesuada, felis nec dignissim lobortis, nisl nulla venenatis arcu, et commodo lacus nulla sit amet libero.
                     </p>
@@ -179,31 +167,40 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="exp-column">
-                            <p class="exp-date">01-Jul-2017 <span>to</span> 01-Jan-2020</p>
-                            <h4 class="exp-company">Soft Agency, San Francisco, CA</h4>
-                            <h4 class="exp-designation">Web Developer</h4>
+                            <p class="exp-date">Fev-2023 <span>à</span> Présent</p>
+                            <h4 class="exp-company">GGA-CI</h4>
+                            <h4 class="exp-designation">Développeur Full Stack</h4>
                             <p class="exp-detail">
-                                Curabitur porttitor, dolor sed tempus fringilla, odio odio pellentesque sem, in elementum sem nisl non ipsum. Suspendisse laoreet ante vel libero convallis, sit amet hendrerit massa mattis.
+                                •Développement, maintenance et mise à jour des
+                                applications internes pour répondre aux besoins opérationnels de l’organisation <br>
+                                •Support IT : assistance technique aux utilisateurs,
+                                installation et configuration des postes de travail
                             </p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="exp-column">
-                            <p class="exp-date">01-Jan-2015 <span>to</span> 25-Jun-2017</p>
-                            <h4 class="exp-company">Decent Soft Solution, Lyndhurst, NJ</h4>
-                            <h4 class="exp-designation">Web Developer</h4>
+                            <p class="exp-date">Oct-2022 <span>à</span> Présent</p>
+                            <h4 class="exp-company">Impact Digital</h4>
+                            <h4 class="exp-designation">Responsable IT</h4>
                             <p class="exp-detail">
-                                Curabitur porttitor, dolor sed tempus fringilla, odio odio pellentesque sem, in elementum sem nisl non ipsum. Suspendisse laoreet ante vel libero convallis, sit amet hendrerit massa mattis.
+                                •Pilotage et coordination de projets web et logiciels de A à Z :
+                                analyse des besoins, planification, développement, tests,
+                                déploiement et maintenance. <br>
+                                •Conception et développement d'applications sur mesure en
+                                assurant performance, sécurité et évolutivité.
                             </p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="exp-column">
-                            <p class="exp-date">01-Jan-2012 <span>to</span> 31-Dec-2014</p>
-                            <h4 class="exp-company">LTR LTD, Mountain View, CA</h4>
-                            <h4 class="exp-designation">Web Designer</h4>
+                            <p class="exp-date">Juil-2022 <span>to</span> Sept-2022</p>
+                            <h4 class="exp-company">OqTech, (Stage)</h4>
+                            <h4 class="exp-designation">Développeur web</h4>
                             <p class="exp-detail">
-                                Curabitur porttitor, dolor sed tempus fringilla, odio odio pellentesque sem, in elementum sem nisl non ipsum. Suspendisse laoreet ante vel libero convallis, sit amet hendrerit massa mattis.
+                                Développement et maintenance d'une plateforme de mise en
+                                relation influenceurs/clients. Ajout de fonctionnalités et
+                                amélioration continue de l'expérience utilisateur
                             </p>
                         </div>
                     </div>
