@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>MyFolio - Portfolio HTML Template</title>
+        <title>Christy Banga</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Portfolio HTML Template" name="keywords">
         <meta content="Portfolio HTML Template" name="description">
@@ -29,7 +29,7 @@
             <div class="container text-center">
                 <div class="row">
                     <div class="col-md-12">
-                        <img src="{{ asset('frontend/img/tof3.jpeg') }}" alt="Anamul Hasan" />
+                        <img src="{{ asset('frontend/img/tof3.jpeg') }}" alt="Christy Banga" />
                     </div>
 
                     <div class="col-md-12">
@@ -50,7 +50,7 @@
             <div class="container">
 
                 <div class="logo pull-left">
-                    <h1><a href="index.html">MyFolio</a></h1>
+                    <h1><a href="/">ChristyBanga</a></h1>
                 </div>
 
                 <nav id="nav-menu-container">
@@ -60,12 +60,12 @@
                         <li><a href="#experience">Experience</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Contact me</a></li>
+                        <li><a href="#contact">Contactez-moi</a></li>
                     </ul>
                 </nav>
 
                 <nav class="nav social-nav pull-right d-none d-lg-inline">
-                    <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="https://www.linkedin.com/in/anvoh-christy-yannick-banga-2a13aa12a/"><i class="fa fa-linkedin"></i></a>
                 </nav>
             </div>
         </div>
@@ -194,9 +194,9 @@
                     </div>
                     <div class="col-md-6">
                         <div class="exp-column">
-                            <p class="exp-date">Juil-2022 <span>to</span> Sept-2022</p>
-                            <h4 class="exp-company">OqTech, (Stage)</h4>
-                            <h4 class="exp-designation">Développeur web</h4>
+                            <p class="exp-date">Juil-2022 <span>au</span> Sept-2022</p>
+                            <h4 class="exp-company">OqTech, Maroc, Kenitra</h4>
+                            <h4 class="exp-designation">Développeur web (Stage)</h4>
                             <p class="exp-detail">
                                 Développement et maintenance d'une plateforme de mise en
                                 relation influenceurs/clients. Ajout de fonctionnalités et
@@ -206,11 +206,23 @@
                     </div>
                     <div class="col-md-6">
                         <div class="exp-column">
-                            <p class="exp-date">01-Jan-2010 <span>to</span> 31-Dec-2012</p>
-                            <h4 class="exp-company">ABC Software, Los Angeles, CA</h4>
-                            <h4 class="exp-designation">Web Designer</h4>
+                            <p class="exp-date">Jan-2022 <span>au</span> Juin-2022</p>
+                            <h4 class="exp-company">Ministère de l'économie et des finances, Maroc, Rabat</h4>
+                            <h4 class="exp-designation">Développeur Full Stack (PFE)</h4>
                             <p class="exp-detail">
-                                Curabitur porttitor, dolor sed tempus fringilla, odio odio pellentesque sem, in elementum sem nisl non ipsum. Suspendisse laoreet ante vel libero convallis, sit amet hendrerit massa mattis.
+                                Sujet : Dématérialisation des factures de Télécommunications dans le Odoo et Création
+                                d'une application web pour la gestion de ces factures
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="exp-column">
+                            <p class="exp-date">Jan-2022 <span>au</span> Juin-2022</p>
+                            <h4 class="exp-company">Maxwell Conseil, Royaume-Uni</h4>
+                            <h4 class="exp-designation">Développeur Full Stack (Stage à distance)</h4>
+                            <p class="exp-detail">
+                                Tâche journalière: correction de bug et ajout de nouvelles
+                                fonctionnalités
                             </p>
                         </div>
                     </div>
