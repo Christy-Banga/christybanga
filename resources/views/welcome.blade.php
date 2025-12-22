@@ -21,6 +21,28 @@
 
         <!-- Template Stylesheet -->
         <link href="{{ asset('frontend/css/style.css') }}" rel="stylesheet">
+
+        <style>
+            .portfolio-wrap {
+                border-radius: 6px;
+                overflow: hidden;
+            }
+
+            .portfolio-wrap figure {
+                position: relative;
+                margin: 0;
+                height: 250px; /* hauteur uniforme */
+                overflow: hidden;
+            }
+
+            .portfolio-wrap img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover; /* 🔥 clé du problème */
+                display: block;
+            }
+
+        </style>
     </head>
 
     <body>
@@ -37,7 +59,7 @@
                     </div>
 
                     <div class="col-md-12">
-                        <p>Web Developer, Apps Developer, Front End Developer, Apps Developer, Administrator database, DevOp's</p>
+                        <p>Ingénieur en Système d'information</p>
                         <h2></h2>
                     </div>
                 </div>
@@ -65,7 +87,7 @@
                 </nav>
 
                 <nav class="nav social-nav pull-right d-none d-lg-inline">
-                    <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="https://www.linkedin.com/in/anvoh-christy-yannick-banga-2a13aa12a/"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a> <a href="https://web.facebook.com/christyleblack.b"><i class="fa fa-facebook"></i></a> <a href="https://www.linkedin.com/in/anvoh-christy-yannick-banga-2a13aa12a/"><i class="fa fa-linkedin"></i></a>
                 </nav>
             </div>
         </div>
@@ -161,7 +183,7 @@
                 <header class="section-header">
                     <h3>Expérience professionnelle</h3>
                     <p>
-                        Morbi lacinia malesuada risus vel pellentesque. Cras malesuada, felis nec dignissim lobortis, nisl nulla venenatis arcu, et commodo lacus nulla sit amet libero.
+                        Parcours professionnel marqué par l’acquisition de compétences solides et une adaptation à différents environnements de travail.
                     </p>
                 </header>
                 <div class="row">
@@ -235,7 +257,7 @@
         <div class="services" id="services">
             <div class="container">
                 <header class="section-header">
-                    <h3>My Services</h3>
+                    <h3>Mes services</h3>
                     <p>
                         Morbi lacinia malesuada risus vel pellentesque. Cras malesuada, felis nec dignissim lobortis, nisl nulla venenatis arcu, et commodo lacus nulla sit amet libero.
                     </p>
@@ -245,48 +267,48 @@
                         <div class="single-service">
                             <span></span>
                             <div class="service-icon"><i class="fa fa-television"></i></div>
-                            <h4>Web Design</h4>
-                            <p>Vestibulum ante ipsum primis in faucibus orci luctus et cubilia Curae</p>
+                            <h4>Conception de sites Web</h4>
+                            <p>Conception d’interfaces modernes, intuitives et adaptées à tous les supports.</p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4">
                         <div class="single-service">
                             <span></span>
                             <div class="service-icon"> <i class="fa fa-laptop"></i> </div>
-                            <h4>Web Development</h4>
-                            <p>Vestibulum ante ipsum primis in faucibus orci luctus et cubilia Curae</p>
+                            <h4>Développement Web</h4>
+                            <p>Développement de sites et d’applications web performants, fiables et évolutifs.</p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4">
                         <div class="single-service">
                             <span></span>
                             <div class="service-icon"> <i class="fa fa-android"></i> </div>
-                            <h4>Apps Development</h4>
-                            <p>Vestibulum ante ipsum primis in faucibus orci luctus et cubilia Curae</p>
+                            <h4>Développement d'applications</h4>
+                            <p>Création d’applications fonctionnelles répondant aux besoins spécifiques des utilisateurs.</p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4">
                         <div class="single-service">
                             <span></span>
-                            <div class="service-icon"> <i class="fa fa-envelope-o"></i> </div>
-                            <h4>Email List Building</h4>
-                            <p>Vestibulum ante ipsum primis in faucibus orci luctus et cubilia Curae</p>
+                            <div class="service-icon"> <i class="fa fa-database"></i> </div>
+                            <h4>Administration de bases de données</h4>
+                            <p>Gestion, maintenance et optimisation des bases de données afin d’assurer la fiabilité, la sécurité et la performance des données.</p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4">
                         <div class="single-service">
                             <span></span>
-                            <div class="service-icon"> <i class="fa fa-signal"></i> </div>
-                            <h4>Custom Analytics</h4>
-                            <p>Vestibulum ante ipsum primis in faucibus orci luctus et cubilia Curae</p>
+                            <div class="service-icon"> <i class="fa fa-gears"></i> </div>
+                            <h4>Intelligence Artificielle (IA)</h4>
+                            <p>Intégration de modèles de langage (LLM) dans des applications web afin de fournir des réponses intelligentes et contextualisées, appuyées par des bases de données optimisées.</p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4">
                         <div class="single-service">
                             <span></span>
-                            <div class="service-icon"> <i class="fa fa-globe"></i> </div>
-                            <h4>Online Marketing</h4>
-                            <p>Vestibulum ante ipsum primis in faucibus orci luctus et cubilia Curae</p>
+                            <div class="service-icon"> <i class="fa fa-server"></i> </div>
+                            <h4>DevOps</h4>
+                            <p>Mise en place et gestion de processus DevOps pour automatiser les déploiements, améliorer la fiabilité et optimiser les performances des systèmes</p>
                         </div>
                     </div>
                 </div>
@@ -298,34 +320,34 @@
         <div class="counters">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-4 col-sm-6">
                         <div class="counter">
                             <div class="counter-icon-box"><i class="fa fa-calendar"></i></div>
-                            <div class="number animateNumber" data-toggle="counter-up"> <span>10</span></div>
-                            <h4 class="font-weight">Years of Experience</h4>
+                            <div class="number animateNumber" data-toggle="counter-up"> <span>5</span></div>
+                            <h4 class="font-weight">Années d'expérience</h4>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-4 col-sm-6">
                         <div class="counter">
                             <div class="counter-icon-box"><i class="fa fa-check"></i></div>
-                            <div class="number animateNumber" data-toggle="counter-up"> <span>395</span></div>
-                            <h4 class="font-weight">Completed Projects</h4>
+                            <div class="number animateNumber" data-toggle="counter-up"> <span>7</span></div>
+                            <h4 class="font-weight">Projets terminés</h4>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-4 col-sm-6">
                         <div class="counter">
                             <div class="counter-icon-box"><i class="fa fa-users"></i></div>
-                            <div class="number animateNumber" data-toggle="counter-up"> <span>225</span></div>
+                            <div class="number animateNumber" data-toggle="counter-up"> <span>10</span></div>
                             <h4 class="font-weight">Total Clients</h4>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    {{-- <div class="col-md-3 col-sm-6">
                         <div class="counter">
                             <div class="counter-icon-box"><i class="fa fa-heart"></i></div>
                             <div class="number animateNumber" data-toggle="counter-up"> <span>9</span></div>
                             <h4 class="font-weight">Award Won</h4>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
@@ -335,19 +357,17 @@
         <div class="portfolio" id="portfolio">
             <div class="container">
                 <header class="section-header">
-                    <h3 class="section-title">My Portfolio</h3>
-                    <p>
-                        Morbi lacinia malesuada risus vel pellentesque. Cras malesuada, felis nec dignissim lobortis, nisl nulla venenatis arcu, et commodo lacus nulla sit amet libero.
-                    </p>
+                    <h3 class="section-title">Mon Portfolio</h3>
+                    <p>Projets réalisés avec rigueur et créativité, illustrant mon savoir-faire et mon évolution professionnelle.</p>
                 </header>
 
                 <div class="row">
                     <div class="col-lg-12">
                         <ul id="portfolio-flters">
                             <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".web-des">Web Design</li>
+                           {{--  <li data-filter=".web-des">Web Design</li>
                             <li data-filter=".web-dev">Web Development</li>
-                            <li data-filter=".app-dev">App Development</li>
+                            <li data-filter=".app-dev">App Development</li> --}}
                         </ul>
                     </div>
                 </div>
@@ -356,10 +376,10 @@
                     <div class="col-lg-4 col-md-6 portfolio-item web-des">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio-1.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio-1.jpg" data-lightbox="portfolio" data-title="Curabitur semper erat" class="link-preview" title="Preview"><i class="fa fa-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                <h4 class="portfolio-title">Curabitur semper erat <span>Web Design</span></h4>
+                                <img src="{{ asset('frontend/img/emakethe.png') }}" class="img-fluid" alt="">
+                                <a href="{{ asset('frontend/img/emakethe.png') }}" data-lightbox="portfolio" data-title="Curabitur semper erat" class="link-preview" title="Preview"><i class="fa fa-eye"></i></a>
+                                <a href="https://emakethe.africa/" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                <h4 class="portfolio-title">eMakethe</h4>
                             </figure>
                         </div>
                     </div>
@@ -367,10 +387,10 @@
                     <div class="col-lg-4 col-md-6 portfolio-item web-des">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio-2.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio-2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Maecenas a tempus tortor" title="Preview"><i class="fa fa-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                <h4 class="portfolio-title">Maecenas a tempus tortor <span>Web Design</span></h4>
+                                <img src="{{ asset('frontend/img/ecn.png') }}" class="img-fluid" alt="">
+                                <a href="{{ asset('frontend/img/ecn.png') }}" class="link-preview" data-lightbox="portfolio" data-title="Maecenas a tempus tortor" title="Preview"><i class="fa fa-eye"></i></a>
+                                <a href="https://lecoledecheznous.com/" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                <h4 class="portfolio-title">Lecoledecheznous</h4>
                             </figure>
                         </div>
                     </div>
@@ -378,10 +398,10 @@
                     <div class="col-lg-4 col-md-6 portfolio-item web-dev">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio-3.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio-3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Aliquam id sapien lorem" title="Preview"><i class="fa fa-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                <h4 class="portfolio-title">Aliquam id sapien lorem <span>Web Development</span></h4>
+                                <img src="{{ asset('frontend/img/horeb.png') }}" class="img-fluid" alt="">
+                                <a href="{{ asset('frontend/img/horeb.png') }}" class="link-preview" data-lightbox="portfolio" data-title="Aliquam id sapien lorem" title="Preview"><i class="fa fa-eye"></i></a>
+                                <a href="https://horebcoop.com/" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                <h4 class="portfolio-title">Horebcoop</h4>
                             </figure>
                         </div>
                     </div>
@@ -389,10 +409,10 @@
                     <div class="col-lg-4 col-md-6 portfolio-item web-dev">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio-4.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio-4.jpg" class="link-preview" data-lightbox="portfolio" data-title="Quisque lectus mauris" title="Preview"><i class="fa fa-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                <h4 class="portfolio-title">Quisque lectus mauris <span>Web Development</span></h4>
+                                <img src="{{ asset('frontend/img/urbanpis.png') }}" class="img-fluid" alt="">
+                                <a href="{{ asset('frontend/img/urbanpis.png') }}" class="link-preview" data-lightbox="portfolio" data-title="Quisque lectus mauris" title="Preview"><i class="fa fa-eye"></i></a>
+                                <a href="https://demo.urbanpis.com/" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                <h4 class="portfolio-title">Urbanpis</h4>
                             </figure>
                         </div>
                     </div>
@@ -400,10 +420,10 @@
                     <div class="col-lg-4 col-md-6 portfolio-item app-dev">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio-5.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio-5.jpg" class="link-preview" data-lightbox="portfolio" data-title="Interdum et malesuada" title="Preview"><i class="fa fa-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                <h4 class="portfolio-title">Interdum et malesuada <span>Apps Development</span></h4>
+                                <img src="{{ asset('frontend/img/yoagence.png') }}" class="img-fluid" alt="">
+                                <a href="{{ asset('frontend/img/yoagence.png') }}" class="link-preview" data-lightbox="portfolio" data-title="Interdum et malesuada" title="Preview"><i class="fa fa-eye"></i></a>
+                                <a href="https://yoagence.pro/" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                <h4 class="portfolio-title">Yo Agence</h4>
                             </figure>
                         </div>
                     </div>
@@ -411,10 +431,21 @@
                     <div class="col-lg-4 col-md-6 portfolio-item app-dev">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio-6.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio-6.jpg" class="link-preview" data-lightbox="portfolio" data-title="Pellentesque lacus" title="Preview"><i class="fa fa-eye"></i></a>
+                                <img src="{{ asset('frontend/img/gentiauto.png') }}" class="img-fluid" alt="">
+                                <a href="{{ asset('frontend/img/gentiauto.png') }}" class="link-preview" data-lightbox="portfolio" data-title="Pellentesque lacus" title="Preview"><i class="fa fa-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                <h4 class="portfolio-title">Pellentesque lacus <span>Apps Development</span></h4>
+                                <h4 class="portfolio-title">GentiAuto</h4>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item app-dev">
+                        <div class="portfolio-wrap">
+                            <figure>
+                                <img src="{{ asset('frontend/img/vetbot.png') }}" class="img-fluid" alt="">
+                                <a href="{{ asset('frontend/img/vetbot.png') }}" class="link-preview" data-lightbox="portfolio" data-title="Pellentesque lacus" title="Preview"><i class="fa fa-eye"></i></a>
+                                <a href="https://vetbot-eight.vercel.app/" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                <h4 class="portfolio-title">Vetbot</h4>
                             </figure>
                         </div>
                     </div>
@@ -424,7 +455,7 @@
         <!-- Portfolio End -->
 
         <!-- Testimonials Start -->
-        <div class="testimonials" id="testimonials">
+        {{-- <div class="testimonials" id="testimonials">
             <div class="container">
                 <i class="fa fa-4x fa-quote-left"></i>
                 <div class="owl-carousel testimonials-carousel">
@@ -456,55 +487,55 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- Testimonials End -->
 
         <!-- Contact Start -->
         <div class="contact" id="contact">
             <div class="container">
                 <div class="section-header">
-                    <h3>Contact Me</h3>
+                    <h3>Contactez-moi</h3>
                     <p>
-                        Morbi lacinia malesuada risus vel pellentesque. Cras malesuada, felis nec dignissim lobortis, nisl nulla venenatis arcu, et commodo lacus nulla sit amet libero.
+                        Pour toute demande d’information ou de collaboration, merci de me contacter via les coordonnées ci-dessous.
                     </p>
                 </div>
 
                 <div class="row">
                     <div class="col-md-6">
                         <div class="contact-info">
-                            <p><i class="fa fa-user"></i>Poppy Jackson</p>
-                            <p><i class="fa fa-tag"></i>Web Designer & Developer</p>
-                            <p><i class="fa fa-map-marker"></i>123 Soft Street, Los Angeles, CA, USA</p>
-                            <p><i class="fa fa-envelope"></i><a href="mailto:info@example.com">info@example.com</a></p>
-                            <p><i class="fa fa-phone"></i><a href="tel:+1234567890">+123-456-7890</a></p>
+                            <p><i class="fa fa-user"></i>Christy Banga</p>
+                            <p><i class="fa fa-tag"></i>Ingénieur En Système d'Information</p>
+                            <p><i class="fa fa-map-marker"></i>Marché de nuit, Port-Bouet, Côte d'ivoire</p>
+                            <p><i class="fa fa-envelope"></i><a href="mailto:info@example.com">christybanga07@gmail.com</a></p>
+                            <p><i class="fa fa-phone"></i><a href="tel:+1234567890">+225 07 68 11 89 88</a></p>
                             <div class="social">
                                 <a href=""><i class="fa fa-twitter"></i></a>
-                                <a href=""><i class="fa fa-facebook"></i></a>
-                                <a href=""><i class="fa fa-linkedin"></i></a>
+                                <a href="https://web.facebook.com/christyleblack.b"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.linkedin.com/in/anvoh-christy-yannick-banga-2a13aa12a/"><i class="fa fa-linkedin"></i></a>
                                 <a href=""><i class="fa fa-instagram"></i></a>
-                                <a href=""><i class="fa fa-youtube"></i></a>
+                                <a href="https://www.youtube.com/@christybanga6435"><i class="fa fa-youtube"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <h4 class="mb-4">Receive messages instantly with our PHP and Ajax contact form - available in the <a href="https://htmlcodex.com/downloading/?item=383">Pro Version</a> only.</h4>
-                        <div class="form">
+{{--                         <h4 class="mb-4">Receive messages instantly with our PHP and Ajax contact form - available in the <a href="https://htmlcodex.com/downloading/?item=383">Pro Version</a> only.</h4>
+ --}}                        <div class="form">
                             <form action="" method="">
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
-                                        <input type="text" class="form-control" placeholder="Your Name" />
+                                        <input type="text" class="form-control" placeholder="Votre nom" />
                                     </div>
                                     <div class="form-group col-md-6">
-                                        <input type="email" class="form-control" placeholder="Your Email" />
+                                        <input type="email" class="form-control" placeholder="Votre e-mail" />
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Subject" />
+                                    <input type="text" class="form-control" placeholder="Sujet" />
                                 </div>
                                 <div class="form-group">
                                     <textarea class="form-control" rows="5" placeholder="Message"></textarea>
                                 </div>
-                                <div><button type="submit">Send Message</button></div>
+                                <div><button type="submit">Envoyer un message</button></div>
                             </form>
                         </div>
                     </div>
@@ -517,11 +548,11 @@
         <div class="footer">
             <div class="container">
                 <div class="copyright">
-                    <p>&copy; Copyright <a href="#">Your Site Name</a>. All Rights Reserved</p>
+                    <p>&copy; Copyright <a href="#">christybanga.com</a>. Tous droits réservés</p>
 
                     <!--/*** The author’s attribution link must remain intact in the template. ***/-->
                     <!--/*** If you wish to remove this credit link, please purchase the Pro Version . ***/-->
-                    <p>Designed by <a href="https://htmlcodex.com">HTML Codex</a></p>
+                    {{-- <p>Designed by <a href="https://htmlcodex.com">HTML Codex</a></p> --}}
                 </div>
             </div>
         </div>

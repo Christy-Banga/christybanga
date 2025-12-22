@@ -133,7 +133,7 @@ h6 {
 /* ============================= */
 
 .header {
-    background: #AF9483;
+    background: #403833;
     height: 70px;
 }
 
@@ -428,14 +428,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-header h2,
 .section-header h3 {
     display: inline-block;
-    color: #AF9483;
+    color: #403833;
     font-size: 35px;
     text-transform: capitalize;
     text-align: left;
     font-weight: 700;
     position: relative;
     padding-bottom: 5px;
-    border-bottom: 1px solid #AF9483;
+    border-bottom: 1px solid #403833;
 }
 
 .section-header h2::before,
@@ -626,7 +626,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .experience .exp-company {
     margin-bottom: 0;
-    color: #AF9483;
+    color: #403833;
     font-size: 18px;
     font-weight: 400;
 }
@@ -708,7 +708,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin: 0 auto 20px;
     text-align: center;
     width: 120px;
-    color: #AF9483;
+    color: #403833;
 }
 
 .services .single-service h4,
@@ -719,7 +719,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     letter-spacing: 0;
     text-transform: uppercase;
     margin-bottom: 10px;
-    color: #AF9483;
+    color: #403833;
 }
 
 .services .single-service p {
@@ -747,7 +747,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     position: relative;
     text-align: center;
     color: #ffffff;
-    background: #AF9483;
+    background: #403833;
 }
 
 .counters .counter .counter-icon-box {
@@ -826,7 +826,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-    background: #AF9483;
+    background: #403833;
     color: #ffffff;
 }
 
@@ -1057,7 +1057,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .contact .contact-info i {
     width: 30px;
-    color: #AF9483;
+    color: #403833;
 }
 
 .contact .social {
@@ -1073,11 +1073,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 1px 0;
     text-align: center;
     font-size: 22px;
-    border: 1px solid #AF9483;
+    border: 1px solid #403833;
 }
 
 .contact .social a i {
-    color: #AF9483;
+    color: #403833;
 }
 
 .contact .social a:hover {
