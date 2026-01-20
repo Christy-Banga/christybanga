@@ -433,7 +433,7 @@
                             <figure>
                                 <img src="{{ asset('frontend/img/gentiauto.png') }}" class="img-fluid" alt="">
                                 <a href="{{ asset('frontend/img/gentiauto.png') }}" class="link-preview" data-lightbox="portfolio" data-title="Pellentesque lacus" title="Preview"><i class="fa fa-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                <a href="http://genti-auto.test/" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
                                 <h4 class="portfolio-title">GentiAuto</h4>
                             </figure>
                         </div>
