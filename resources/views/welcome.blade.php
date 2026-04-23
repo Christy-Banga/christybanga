@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <title>Christy Banga</title>
+        <meta charset="UTF-8">
+        <title>Anvoh Christy Yannick Banga</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Portfolio HTML Template" name="keywords">
-        <meta content="Portfolio HTML Template" name="description">
+        <meta content="Anvoh Christy Yannick Banga" name="keywords">
+        <meta content="Ingénieur en Système d'information" name="description">
 
         <!-- Favicon -->
-        <link href="{{ asset('frontend/img/favicon.ico') }}" rel="icon">
+        <link href="{{ asset('/favicon.ico') }}" rel="icon">
 
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Solway:400,700&display=swap" rel="stylesheet">
@@ -48,10 +48,15 @@
     <body>
         <!-- Header Start -->
         <div class="top-header" id="top-header">
+            @if(session('success'))
+                <div class="alert alert-success">
+                    {{ session('success') }}
+                </div>
+            @endif
             <div class="container text-center">
                 <div class="row">
                     <div class="col-md-12">
-                        <img src="{{ asset('frontend/img/tof3.jpeg') }}" alt="Christy Banga" />
+                        <img src="{{ asset('frontend/img/toftof.jpeg') }}" alt="Christy Banga" />
                     </div>
 
                     <div class="col-md-12">
@@ -79,7 +84,7 @@
                     <ul class="nav-menu">
                         <li><a href="#top-header">Accueil</a></li>
                         <li><a href="#about">À-propos</a></li>
-                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#experience">Experiences</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#contact">Contactez-moi</a></li>
@@ -98,25 +103,27 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6 col-lg-4">
-                        <img class="img-fluid" src="{{ asset('frontend/img/tof4.jpeg') }}" />
+                        <img class="img-fluid" src="{{ asset('frontend/img/toftof.jpeg') }}" />
                     </div>
 
                     <div class="col-md-6 col-lg-8">
                         <header class="section-header">
                             <h2>À-propos</h2>
                         </header>
-                        <h3><strong>Nom :</strong> Anvoh Christy Yannick Banga</h3>
+                        <h3><strong>Nom :</strong> Anvoh Christy Yannick BANGA</h3>
                         <h4><strong>Profession:</strong> Ingénieur en Système d'information</h4>
                         <p>
-                            Passionné d’informatique, je suis fasciné par le pouvoir transformateur de la technologie et par son impact concret sur notre quotidien. Ingénieur en informatique, j’aime relever des défis techniques et explorer de nouvelles approches pour concevoir des solutions performantes, innovantes et durables.
+                            Ingénieur en systèmes d’information, je conçois des solutions numériques fiables, performantes et adaptées aux besoins réels. J’interviens sur des projets variés en mettant l’accent sur la qualité, la structuration et la pertinence des solutions proposées.
                         </p>
+
                         <p>
-                            Curieux et motivé, je me tiens constamment à l’affût des avancées technologiques. J’aime plonger dans de nouveaux outils, langages et environnements afin de repousser les limites de ce qui est possible et d’améliorer en continu mes compétences.
+                            Animé par le goût du défi, j’aime analyser des problématiques complexes et y apporter des réponses claires et efficaces. Mon approche repose sur la rigueur, l’autonomie et une amélioration continue de mes compétences.
                         </p>
+
                         <p>
-                           Pour moi, l’informatique n’est pas seulement un métier, mais une véritable passion qui me pousse à apprendre, à progresser et à créer de la valeur à travers chaque projet sur lequel je travaille.
+                            Au-delà de l’aspect technique, je m’attache à créer de la valeur : simplifier les processus, améliorer l’expérience utilisateur et concevoir des solutions utiles et durables.
                         </p>
-                        <a href="#">Télécharger CV</a>
+                        <a href="{{ route('cv.download') }}">Télécharger CV</a>
                     </div>
                 </div>
 
@@ -259,7 +266,9 @@
                 <header class="section-header">
                     <h3>Mes services</h3>
                     <p>
-                        Morbi lacinia malesuada risus vel pellentesque. Cras malesuada, felis nec dignissim lobortis, nisl nulla venenatis arcu, et commodo lacus nulla sit amet libero.
+                        Je conçois et développe des sites web modernes, rapides et adaptés à tous les écrans.
+                        J’accompagne également mes clients dans la création d’applications sur mesure,
+                        l’optimisation des performances et la maintenance de leurs projets digitaux.
                     </p>
                 </header>
                 <div class="row">
@@ -330,7 +339,7 @@
                     <div class="col-md-4 col-sm-6">
                         <div class="counter">
                             <div class="counter-icon-box"><i class="fa fa-check"></i></div>
-                            <div class="number animateNumber" data-toggle="counter-up"> <span>7</span></div>
+                            <div class="number animateNumber" data-toggle="counter-up"> <span>9</span></div>
                             <h4 class="font-weight">Projets terminés</h4>
                         </div>
                     </div>
@@ -378,7 +387,9 @@
                             <figure>
                                 <img src="{{ asset('frontend/img/emakethe.png') }}" class="img-fluid" alt="">
                                 <a href="{{ asset('frontend/img/emakethe.png') }}" data-lightbox="portfolio" data-title="Curabitur semper erat" class="link-preview" title="Preview"><i class="fa fa-eye"></i></a>
-                                <a href="https://emakethe.africa/" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#modalEmakethe" class="link-details">
+                                    <i class="fa fa-info-circle"></i>
+                                </a>
                                 <h4 class="portfolio-title">eMakethe</h4>
                             </figure>
                         </div>
@@ -431,10 +442,10 @@
                     <div class="col-lg-4 col-md-6 portfolio-item app-dev">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="{{ asset('frontend/img/gentiauto.png') }}" class="img-fluid" alt="">
-                                <a href="{{ asset('frontend/img/gentiauto.png') }}" class="link-preview" data-lightbox="portfolio" data-title="Pellentesque lacus" title="Preview"><i class="fa fa-eye"></i></a>
-                                <a href="http://genti-auto.test/" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                <h4 class="portfolio-title">GentiAuto</h4>
+                                <img src="{{ asset('frontend/img/vroumci.png') }}" class="img-fluid" alt="">
+                                <a href="{{ asset('frontend/img/vroumci.png') }}" class="link-preview" data-lightbox="portfolio" data-title="Pellentesque lacus" title="Preview"><i class="fa fa-eye"></i></a>
+                                <a href="https://vroumci.com/" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                <h4 class="portfolio-title">Vroumci</h4>
                             </figure>
                         </div>
                     </div>
@@ -446,6 +457,28 @@
                                 <a href="{{ asset('frontend/img/vetbot.png') }}" class="link-preview" data-lightbox="portfolio" data-title="Pellentesque lacus" title="Preview"><i class="fa fa-eye"></i></a>
                                 <a href="https://vetbot-eight.vercel.app/" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
                                 <h4 class="portfolio-title">Vetbot</h4>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item app-dev">
+                        <div class="portfolio-wrap">
+                            <figure>
+                                <img src="{{ asset('frontend/img/lookup.png') }}" class="img-fluid" alt="">
+                                <a href="{{ asset('frontend/img/lookup.png') }}" class="link-preview" data-lightbox="portfolio" data-title="Pellentesque lacus" title="Preview"><i class="fa fa-eye"></i></a>
+                                <a href="https://lookup.gga-ci.net/login" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                <h4 class="portfolio-title">LooKup</h4>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item app-dev">
+                        <div class="portfolio-wrap">
+                            <figure>
+                                <img src="{{ asset('frontend/img/gcotation.png') }}" class="img-fluid" alt="">
+                                <a href="{{ asset('frontend/img/gcotation.png') }}" class="link-preview" data-lightbox="portfolio" data-title="Pellentesque lacus" title="Preview"><i class="fa fa-eye"></i></a>
+                                <a href="https://gcotation.gga-ci.com/login" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                <h4 class="portfolio-title">gCotation</h4>
                             </figure>
                         </div>
                     </div>
@@ -518,22 +551,22 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-{{--                         <h4 class="mb-4">Receive messages instantly with our PHP and Ajax contact form - available in the <a href="https://htmlcodex.com/downloading/?item=383">Pro Version</a> only.</h4>
- --}}                        <div class="form">
-                            <form action="" method="">
+                        <div class="form">
+                            <form action="{{ route('contact.send') }}" method="POST">
+                                @csrf
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
-                                        <input type="text" class="form-control" placeholder="Votre nom" />
+                                        <input type="text" name="name" class="form-control" placeholder="Votre nom" />
                                     </div>
                                     <div class="form-group col-md-6">
-                                        <input type="email" class="form-control" placeholder="Votre e-mail" />
+                                        <input type="email" name="email" class="form-control" placeholder="Votre e-mail" />
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Sujet" />
+                                    <input type="text" name="subject" class="form-control" placeholder="Sujet" />
                                 </div>
                                 <div class="form-group">
-                                    <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                                    <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
                                 </div>
                                 <div><button type="submit">Envoyer un message</button></div>
                             </form>
